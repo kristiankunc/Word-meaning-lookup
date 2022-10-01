@@ -1,0 +1,25 @@
+{
+    "name": "word-meaning-lookup",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack --config webpack/webpack.config.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "copy-webpack-plugin": "^11.0.0",
+        "ts-loader": "^9.4.1",
+        "typescript": "^4.8.3",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    },
+    "dependencies": {
+        "@types/firefox": "^0.0.31",
+        "suggestions": "^1.7.1",
+        "webext-content-scripts": "^1.0.3",
+        "webextension-polyfill-ts": "^0.26.0"
+    }
+}
